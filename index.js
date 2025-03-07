@@ -15,6 +15,10 @@ app.use(cors(
     }
 ));
 app.use("/api", diceRoutes);
+app.get("/", (req, res) => {
+    res.send("Backend is running!");
+  });
+  
 
 const PORT = process.env.PORT;
 
