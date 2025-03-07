@@ -10,7 +10,7 @@ dotenv.config();
 app.use(express.json());
 app.use(cors(
     {
-        origin: "http://localhost:5173",
+        origin: "https://67cb3fb9868ad9901f1396bc--preeminent-dusk-af3d28.netlify.app/",
         credentials: true
     }
 ));
