@@ -10,7 +10,7 @@ dotenv.config();
 app.use(express.json());
 app.use(cors(
     {
-        origin: "https://app.netlify.com/sites/roaring-buttercream-4a5966/deploys/67cb416a74cef955036e8861",
+        origin: "https://roaring-buttercream-4a5966.netlify.app",
         credentials: true
     }
 ));
